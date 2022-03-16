@@ -35,5 +35,5 @@ function login(name, password) {
 function logout() {
     localStorage.removeItem('user');
     userSubject.next(null);
-    Router.back();
+    Router.push('/');
 }
