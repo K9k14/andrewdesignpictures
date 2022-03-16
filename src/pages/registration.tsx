@@ -90,7 +90,7 @@ const Registration = () => {
                 `}</style>
             </form>
         </Layout>
-    )
+    );
 };
 
 export default Registration;
